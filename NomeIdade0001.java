@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class NomeIdade0001 {
+    public static void ni0001(String[] args) {
         Scanner Scan = new Scanner(System.in);
 
         String nome;
-        int idade;
+        int idade = 0;
 
         while(true) {
             System.out.println("Nome: ");
@@ -15,5 +15,8 @@ public class Main {
             idade = Scan.nextInt();
 
         }
+
+        System.out.println(nome);
+        System.out.println(idade);
     }
 }

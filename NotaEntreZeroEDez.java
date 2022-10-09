@@ -4,8 +4,8 @@ import java.util.Scanner;
 Se for um valor inválido, apresentar mensagem.
  */
 
-public class Main {
-    public static void main(String[] args) {
+public class NotaEntreZeroEDez {
+    public static void NotaEntreZeroEDez0001(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         int nota;
