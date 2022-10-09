@@ -1,3 +1,5 @@
+package ReallyBasicJava;
+
 import java.util.Scanner;
 
 public class NomeIdade0001 {

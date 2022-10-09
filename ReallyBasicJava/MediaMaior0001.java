@@ -1,3 +1,6 @@
+package ReallyBasicJava;
+
+
 import java.util.Scanner;
 
 /* Pedir que o usuário insira 5 números.

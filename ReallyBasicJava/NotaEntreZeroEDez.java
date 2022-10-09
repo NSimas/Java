@@ -1,3 +1,4 @@
+package ReallyBasicJava;
 import java.util.Scanner;
 
 /* Pedir uma nota entrer 0 e 10.
