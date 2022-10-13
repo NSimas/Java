@@ -15,6 +15,8 @@ public class PositivoNegativo0001 {
 
         while (desejaContinuar == 'S' ||
                 desejaContinuar == 's') {
+
+            System.out.println("Digite um número inteiro:");
             int numero = leia.nextInt();
 
             if (numero == 0) {
@@ -27,7 +29,12 @@ public class PositivoNegativo0001 {
                 }
             }
         }
+
+        System.out.println("Deseja continuar? s/n");
         desejaContinuar = leia.next().charAt(0);
+
+
+
     }
 }
 }
