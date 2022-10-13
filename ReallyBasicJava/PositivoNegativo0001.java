@@ -27,6 +27,7 @@ public class PositivoNegativo0001 {
                 }
             }
         }
+        desejaContinuar = leia.next().charAt(0);
     }
 }
 }
