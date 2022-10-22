@@ -10,4 +10,5 @@ public class Pessoa {
         float imc = peso / (altura * altura);
         return imc;
     }
+    
 }
