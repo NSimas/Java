@@ -16,7 +16,7 @@ Tabuada de 5:
  */
 
 public class Tabuada {
-    public static void Tabuada(String[] args) {
+    public static void Tabuada0001(String[] args) {
         Scanner leia = new Scanner(System.in);
 
         System.out.println("De qual número," +
