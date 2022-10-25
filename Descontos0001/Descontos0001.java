@@ -17,44 +17,44 @@ public class Descontos0001 {
         Scanner leia = new Scanner(System.in);
 
         int anoFabricacao = 0;
-        float valorVeiculo = 0.0f;
-        float valorVeiculoComDesconto = 0.0f;
+        double valorVeiculo = 0.0d;
+        double valorVeiculoComDesconto = 0.0d;
 
         int totalCarros = 0;
         int totalCarrosAntigos = 0;
 
-        Character repetir = "s";
+        Character repetir = 's';
 
-        while (repetir == "s" || repetir == "S") {
+        while (repetir == 's' || repetir == 'S') {
 
             System.out.println("Digite o ano de fabricação do veículo:");
             anoFabricacao = leia.nextInt();
 
             System.out.println("Digite o valor do veículo:");
-            valorVeiculo = leia.nextFloat();
+            valorVeiculo = leia.nextDouble();
 
             if(anoFabricacao <= 2000) {
                 //12%
                 valorVeiculoComDesconto = valorVeiculo * 0.88;
+
+                totalCarrosAntigos++;
             } else {
                 //7%
                 valorVeiculoComDesconto = valorVeiculo * 0.93;
-
-                totalCarrosAntigos++;
             }
             totalCarros++;
 
-            System.out.println("O valor do desconto foi de: R$ " 
+            System.out.println("O valor do desconto foi de: R$ "
                     + (valorVeiculo - valorVeiculoComDesconto));
-            System.out.println("O valor a pagar é de: R$ " 
+            System.out.println("O valor a pagar é de: R$ "
                     + valorVeiculoComDesconto);
-            
+
             System.out.println("Deseja realizar outro cadastro: S - sim ou N - não");
             repetir = leia.next().charAt(0);
         }
-        System.out.println("O total de carros antigos foi: " 
+        System.out.println("O total de carros antigos foi: "
                 + totalCarrosAntigos);
-        System.out.println("O total geral de carro foi: " 
+        System.out.println("O total geral de carro foi: "
                 + totalCarros);
     }
 }
