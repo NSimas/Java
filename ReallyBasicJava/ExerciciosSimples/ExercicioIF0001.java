@@ -1,4 +1,4 @@
-package ReallyBasicJava;
+package ReallyBasicJava.ExerciciosSimples;
 
 public class ExercicioIF0001 {
     public static void if0001(String[] args) {

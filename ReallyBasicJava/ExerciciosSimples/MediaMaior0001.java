@@ -1,4 +1,4 @@
-package ReallyBasicJava;
+package ReallyBasicJava.ExerciciosSimples;
 
 
 import java.util.Scanner;

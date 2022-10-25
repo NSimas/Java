@@ -1,4 +1,4 @@
-package ReallyBasicJava;
+package ReallyBasicJava.ExerciciosSimples;
 
 public class Calculadora0003 {
     public static void calc0003(String[] args) {

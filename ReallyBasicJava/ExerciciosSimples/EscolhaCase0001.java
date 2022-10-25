@@ -1,3 +1,4 @@
+package ReallyBasicJava.ExerciciosSimples;
 public class EscolhaCase0001 {
     public static void escolha(String[] args) {
         int codigoProduto = 2;
