@@ -1,4 +1,4 @@
-package ReallyBasicJava.Calculadora0005;
+package ReallyBasicJava.CalculadorasDiversas.Calculadora0006;
 
 import java.util.Scanner;
 

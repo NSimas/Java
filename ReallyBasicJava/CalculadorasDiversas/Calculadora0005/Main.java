@@ -1,4 +1,4 @@
-package ReallyBasicJava.Calculadora0005;
+package ReallyBasicJava.CalculadorasDiversas.Calculadora0005;
 
 public class Main {
     public static void main(String[] args) {

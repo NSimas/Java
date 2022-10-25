@@ -1,4 +1,4 @@
-package ReallyBasicJava.Calculadora0004.java;
+package ReallyBasicJava.CalculadorasDiversas.Calculadora0004;
 
 public class Pessoa {
 

@@ -1,3 +1,4 @@
+package ReallyBasicJava.CalculadorasDiversas.Descontos0001;
 /*
     A concessionária de veículos "Carango Velho" está vendendo
 os seus veículos com desconto. Faça um algorítmo que calcule e
